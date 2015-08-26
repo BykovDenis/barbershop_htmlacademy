@@ -1,0 +1,26 @@
+body{
+    font-size: 14px;
+    line-height: normal;
+    color: #333;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow','sant serif';    
+    text-transform: uppercase;
+}
+
+.features-item>p{
+    font-size: 14px;
+    line-height: normal;
+    color: #f7f4f1;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow','sant serif';
+    text-transform: uppercase;
+}
+
+.features-title{
+    font-size: 30px;
+    line-height: normal;
+    color: #f7f4f1;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow','sant serif';
+    text-transform: uppercase;    
+}
