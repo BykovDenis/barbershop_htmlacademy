@@ -1,26 +1,26 @@
 body{
     font-size: 14px;
-    line-height: normal;
+    line-height: 1em;  
     color: #333;
     font-weight: bold;
-    font-family: 'PT Sans Narrow','sant serif';    
-    text-transform: uppercase;
+    font-family: 'PT Sans Narrow','sans-serif';    
+    text-transform: uppercase;  
 }
 
 .features-item>p{
     font-size: 14px;
-    line-height: normal;
+    line-height: 1em;  
     color: #f7f4f1;
     font-weight: bold;
-    font-family: 'PT Sans Narrow','sant serif';
-    text-transform: uppercase;
+    font-family: 'PT Sans Narrow','sans-serif';
+    text-transform: uppercase; 
 }
 
 .features-title{
     font-size: 30px;
-    line-height: normal;
+    line-height: 1em;
     color: #f7f4f1;
     font-weight: bold;
-    font-family: 'PT Sans Narrow','sant serif';
-    text-transform: uppercase;    
+    font-family: 'PT Sans Narrow','sans-serif';
+    text-transform: uppercase;       
 }
