@@ -1,26 +1,17 @@
-body{
-    font-size: 14px;
-    line-height: 1em;  
-    color: #333;
-    font-weight: bold;
-    font-family: 'PT Sans Narrow','sans-serif';    
+body{        
+    color: #333;    
     text-transform: uppercase;  
+	font: bold 14px/1em 'PT Sans Bold',sans-serif;	
 }
 
 .features-item>p{
-    font-size: 14px;
-    line-height: 1em;  
     color: #f7f4f1;
-    font-weight: bold;
-    font-family: 'PT Sans Narrow','sans-serif';
     text-transform: uppercase; 
+	font: bold 14px/1em 'PT Sans Bold',sans-serif;	
 }
 
-.features-title{
-    font-size: 30px;
-    line-height: 1em;
-    color: #f7f4f1;
-    font-weight: bold;
-    font-family: 'PT Sans Narrow','sans-serif';
+.features-title{    
+    color: #f7f4f1;    
     text-transform: uppercase;       
+	font: bold 30px/1em 'PT Sans Bold',sans-serif;	
 }
