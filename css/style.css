@@ -1,17 +1,151 @@
+* { padding: 0; margin: 0; outline: 0}
+
 body{        
     color: #333;    
     text-transform: uppercase;  
-	font: bold 14px/1em 'PT Sans Bold',sans-serif;	
+	font: bold 14px/1em 'PT Sans',sans-serif;	
 }
 
-.features-item>p{
-    color: #f7f4f1;
-    text-transform: uppercase; 
-	font: bold 14px/1em 'PT Sans Bold',sans-serif;	
+h1{
+    margin-bottom:32px;
 }
 
-.features-title{    
-    color: #f7f4f1;    
-    text-transform: uppercase;       
-	font: bold 30px/1em 'PT Sans Bold',sans-serif;	
+
+.main__header {
+    background-color: #000000;
+    color: white;
+    font: bold 16px 'PT Sans';
+    min-height: 72px
+}
+
+.layout {
+    width:900px;
+    margin: 0 auto;
+        padding: 28px 0;
+}
+
+.menu__items{
+    
+}
+
+.menu__items>li{
+    display: inline-block;
+    margin-right: 42px;
+    color: white;
+}
+
+.menu__items>li:last-child{
+    margin-right:0;
+}
+
+.header__menu {
+    float: left;
+}
+
+.header__login {
+    float: right;    
+}
+
+
+
+
+/*======================================
+ Системное оформление - не изменять
+=======================================*/
+
+.gl0, .gl1, .gl2, .gl3 {
+  position: relative;
+}
+
+.gl0:before, .gl1:before, .gl2:before, .gl3:before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 0;
+  height: 20px;
+  padding: 2px 5px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  font-family: "Courier New", monotype;
+  white-space: nowrap;
+}
+
+.gl0 {
+  outline: 2px solid blue;
+  background: rgba(0, 0, 255, .1);
+}
+
+.gl0:before {
+  color: #fff;
+  background: rgba(0, 0, 255, .9);
+}
+
+.gl1 {
+  outline: 2px solid green;
+  background: rgba(0, 128, 0, .1);
+}
+
+.gl1:before {
+  color: #fff;
+  background: rgba(0, 128, 0, .9);
+}
+
+.gl2 {
+  outline: 2px solid rgb(255, 45, 82);
+  background: rgba(255, 45, 82, .1);
+}
+
+.gl2:before {
+  color: #fff;
+  background: rgba(255, 45, 82, .9);
+}
+
+.gl3 {
+  outline: 2px solid rgb(234, 255, 45);
+  background: rgba(234, 255, 45, .1);
+}
+
+.gl3:before {
+  color: #000;
+  background: rgba(234, 255, 45, .8);
+}
+
+.breadcrumbs__items {
+    margin-bottom: 62px;
+}
+
+.breadcrumbs__items>a{
+    margin-right: 39px;
+}
+
+.main__filters {
+    width:  200px;
+    float: left;     
+}
+
+
+
+
+.main__filters input[type="checkbox"],
+.main__filters input[type="radio"]{
+    margin: 14px 0;
+}
+
+.filter__suppliers {
+    margin-bottom: 52px;
+}
+
+.main__goods {
+    float: right;
+}
+
+.main__goods div{
+    display: inline-block;
+}
+
+.clearfix {
+    content:'';
+    display: table;
+    clear:both;
 }
